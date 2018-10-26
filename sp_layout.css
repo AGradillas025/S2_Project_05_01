@@ -13,6 +13,8 @@
 
 */
 
+/* Height increase to 100% for html. Align body element to the page and make a max width and min width for page, Also make min height and change width to 95%. Box size other elements to border-box. */
+
 /* Window and Body Styles */
 html {
     height: 100%;
@@ -34,12 +36,16 @@ li {
     box-sizing: border-box;
 }
 
+/* Stly rule for header with the child of row that cleared both and displayed table. */
+
 /* Row Styles */
 header.row::after {
     clear: both;
     content: "";
     display: table;
 }
+
+/* Float the headers image and nav to the left and display as block. Display the link in the nav as a block. */
 
 /* Page Header Styles */
 body>header>img {
@@ -60,12 +66,16 @@ header nav a {
     width: 100%;
 }
 
+/* Horizontally align the navs list and display as a block and float left.  */
+
 /* Horizontal Navigation List Styles */
 nav.horizontal li {
     display: block;
     width: 12.5%;
     float: left;
 }
+
+/* Move the bodys ul#topics li:first-of-type and li:last-of-type to move left and right. Make ul#topics li image display as block and place in the center with the width of 50%. Also, Display the ul#topics li as a block with width of 20% and to float left with 0% of margin left and 1.5% margin right.  */
 
 /* Topics Styles */
 ul#topics li {
@@ -91,10 +101,14 @@ ul#topics li img {
     margin-right: auto;
 }
 
+/* Change width of hr element to 50%. */
+
 /* HR Styles */
 hr {
     width: 50%;
 }
+
+/* Set the ul#comments to the width of 75% with the top and bottom margin to 40 pixels and to align center. Make ul#comments li display as a block set the width to 50%, float left and the right and left margin to 5%. For the ul#comments li>p float left and change width to 70%. */
 
 /* Customer Comment Styles */
 ul#comments {
@@ -124,6 +138,8 @@ ul#comments li>p {
     float: left;
     width: 70%;
 }
+
+/* Clear both in the footer. */
 
 /* Footer Styles */
 footer {
